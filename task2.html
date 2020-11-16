@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Navbar2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+          }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      height: 36px;
+
+      font-family: bold;
+      font-size: 12px;
+    }
+
+    nav {
+      position: fixed;
+      z-index: 5;
+      left: 0;
+      right: 0;
+      top: 0;
+      font-family: Arial;
+      padding: 0 5%;
+      height: 60px;
+      background-color: #03063A;
+      margin-right: 2px;
+
+    }
+
+    nav .navbar {
+       float: left;
+       width: 20%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       font-size: 20px;
+       color: #fff;
+
+    }
+    nav .links {
+      float: right;
+      padding: 0;
+      margin: 0;
+      width: 40%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    nav .links li {
+      list-style: none;
+    }
+    nav .links a {
+      display: block;
+      padding: 13px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: all ease 0.5s;
+
+    }
+  nav .links a:hover{
+    background: #1D1463;
+  }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+      <ul class="links">
+        <li><a href="Home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li><a href="Search"><i class="fa fa-search" aria-hidden="true"></i>Search</a></li>
+        <li><a href="AboutUs"><i class="fa fa-user" aria-hidden="true"></i>AboutUs</a></li>
+        <li><a href="Contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+      </ul>
+
+  </nav>
+
+</body>
+
+</html>
